@@ -12,7 +12,7 @@ A basic Ionic client web application which consumes the RestAPI Backend. [Covere
 
 ## Elastic BeanStalk
 
-Beanstalk URL :http://image-filter-starter-code-dev222222222222222222.us-east-1.elasticbeanstalk.com/filteredimage?image_url=<Image_URL>
+Beanstalk URL :http://image-filter-app-dev2.us-east-1.elasticbeanstalk.com/filteredimage?image_url=<Image_URL>
 
 ### Setup Node Environment
 
