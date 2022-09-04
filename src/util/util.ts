@@ -16,7 +16,6 @@ export async function filterImageFromURL(inputURL: string): Promise<string> {
       const { data } = await axios.get<any, AxiosResponse<ArrayBuffer>>(inputURL, {    responseType: "arraybuffer",      });
       const imageBuffer = Buffer.from(data);
       const photo = await Jimp.read(imageBuffer);
-      const photo = await Jimp.read(inputURL);
       const outpath =
         "/tmp/filtered." + Math.floor(Math.random() * 2000) + ".jpg";
       await photo
